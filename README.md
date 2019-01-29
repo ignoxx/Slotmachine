@@ -1,10 +1,8 @@
 # Slotmachine
 School project for the programming class.
 
-Try it [here](https://ignaskavaliauskas.github.io/Slotmachine/slotmachine.html)
-
 # How to use
-Just clone this repository and open index.html
+Just clone this repository and open index.html or try it [here](https://ignaskavaliauskas.github.io/Slotmachine/slotmachine.html)
 
 # What I've learned
 * To implement and use Bootstrap

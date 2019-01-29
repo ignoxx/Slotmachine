@@ -1,6 +1,8 @@
 # Slotmachine
 School project for the programming class.
 
+Try it here: https://ignaskavaliauskas.github.io/Slotmachine/slotmachine.html
+
 # How to use
 Just clone this repository and open index.html
 

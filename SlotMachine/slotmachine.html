@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+
+    <meta charset="utf-8" /> 
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	
+	<!-- CSS Dateien Einbinden -->
+	<link rel="stylesheet" href="CSS/main.css">
+	<link rel="stylesheet" href="CSS/bootstrap.min.css">
+	
+	<!-- JS Datei(en) Einbinden -->
+	<script src="JS/script.js"></script>
+	<!-- Latest compiled and minified JavaScript -->
+	<script src="JS/jquery-1.11.3.min.js"></script>
+	<script src="JS/bootstrap.min.js"></script>
+	
+	<link rel="stylesheet" href="CSS/odometer-theme-default.css" />
+	<script src="JS/odometer.js"></script>
+	
+    <title>SlotMachine</title>
+	
+</head>
+
+<body>
+
+
+
+	<!-- Navigation's Leiste -->
+	<nav class="navbar navbar-default">
+	  <div class="container-fluid">
+		<div class="navbar-header">
+		  <a class="navbar-brand" href="index.html">Startseite</a>
+		</div>
+
+		<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+		  <ul class="nav navbar-nav">
+			<li class="active"><a href="slotmachine.html">Slotmachine <span class="sr-only">(current)</span></a></li>
+			<li><a href="anleitung.html">Anleitung</a></li>
+			<li><a href="impressum.html">Impressum</a></li>
+		  </ul>
+		  
+		  <ul class="nav navbar-nav navbar-right">
+			<li class="active"><a id="outputJackpot"><font color="red">Jackpot:</font>  1.000.000$ <span class="sr-only">(current)</span></a></li>
+		    <li><a id="outputTimer">Spielzeit: 2:00</a></li>
+		  </ul>
+		</div>
+	  </div>
+	</nav>
+	
+<div class="container">	
+	
+	<!-- Cash Anzeige -->
+	<div>
+		<table class="center">
+		 <tr> 
+		  <td class="odometer" id="outputCash">30</td> 
+		 </tr>
+		</table>
+	</div>
+	
+	<div class="form-group">
+	  <label class="control-label">Wie viel $ möchtest du bieten?</label>
+	  <div class="input-group">
+		<span class="input-group-addon">$</span>
+		<input type="text" id="betValue" width=100 class="form-control" value = "1" placeholder="10">
+		<span class="input-group-btn">
+		  <button class="btn btn-primary" id="spinButton" type="button" onclick="spinMachine()">Spin</button>
+	</span>
+	  </div>
+	</div>
+	
+		<!-- End Button -->
+		<div id="endGame">
+			<center>
+			<input type="button" id="endGameBtn" width=100 class="btn btn-danger" value = "End Game" onClick="gameEnd()">
+			</center>
+		</div>
+		<br>
+	<!-- Bilder Ausgabe -->
+	<center>
+	<table>
+		<tr>
+			<td>
+				<img id="return1" width=128 height=128  src="Images/7.png" alt ="Slot 1"></img>
+			</td>
+			
+			<td>
+				<img id="return2" width=128 height=128 src="Images/7.png" alt ="Slot 2"></img>
+			</td>
+			
+			<td>
+				<img id="return3" width=128 height=128 src="Images/7.png" alt ="Slot 3"></img>
+			</td>
+		</tr>
+	</table>
+	</center>
+	
+	
+	
+	<!-- Message Ausgabe -->
+	<br>
+	<br>
+	
+	<div id="msgPos">
+
+	</div>
+	
+</div>
+</body>
+
+
+</html>

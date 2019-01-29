@@ -1,0 +1,32 @@
+table
+{
+	text-align:center;
+}
+.btnSize
+{
+	width:150px !important;
+}
+
+.td
+{
+	border: 1px solid black !important;
+	width:128px;
+	height:128px;
+}
+
+
+.center
+{
+ margin-left: auto;
+ margin-right: auto;
+}
+#outputCash
+{
+	/*margin-left:20%;*/
+}
+
+.odometer
+{
+ font-size: 60px;
+}
+

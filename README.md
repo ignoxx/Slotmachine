@@ -1,5 +1,5 @@
 # Slotmachine
-School project for the programming class.
+School project (2015/16) for the programming class.
 
 # How to use
 Just clone this repository and open index.html or try it [here](https://ignaskavaliauskas.github.io/Slotmachine/slotmachine.html)

@@ -2,7 +2,7 @@
 School project (2015/16) for the programming class.
 
 # How to use
-Just clone this repository and open index.html or try it [here](https://ignaskavaliauskas.github.io/Slotmachine/slotmachine.html)
+Just clone this repository and open index.html or try it [here](https://ignoxx.github.io/Slotmachine/slotmachine.html)
 
 # What I've learned
 * To implement and use Bootstrap
